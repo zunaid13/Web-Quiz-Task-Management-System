@@ -1,0 +1,47 @@
+/* // Updated style module (CreateTask.module.css) */
+.task-form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-form input,
+.task-form textarea,
+.task-form select {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 0px;
+}
+
+.task-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.task-form input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.task-form select {
+  font-size: 16px;
+}

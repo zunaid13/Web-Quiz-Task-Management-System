@@ -1,0 +1,63 @@
+.task-details-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .task-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .task-info {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .completed {
+    color: #27ae60;
+  }
+  
+  .pending {
+    color: #e74c3c;
+  }
+  
+  .details-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+  }
+  
+  .edit-btn {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .done-btn {
+    background-color: #27ae60;
+    color: #fff;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .btn:hover {
+    background-color: #2c3e50;
+  }
+  
